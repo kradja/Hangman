@@ -26,7 +26,7 @@ def main():
     rand = random.randint(0,4)
 
     hc = hangman_check(words[rand])
-    print('H A N G M A N - input your letters to guess below')
+    print('H A N G M A N -input your letters to guess below')
     print('Blanks: ' + hc.blanks)
     count = 0
     while count < len(words[rand]):
